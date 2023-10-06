@@ -1,0 +1,5 @@
+To start the application, all you do is do "docker-compose up --build"
+I used postgres for my database, as that is fairly easy to setup and interact with.  I used Golang for the backend, as it executes faster than Python,
+ and it is easy to create quick Rest APIs in it.  For authentication, I used a jwt token to track the user and keep him logged in, as it is one of the more secured ways of keeping a session,
+ and I also used a sha512 hash to hash the password.
+ If I had more time on my hands I would have encrypted and decrypted the password in the text files, so the password is not floating around in a text file.
